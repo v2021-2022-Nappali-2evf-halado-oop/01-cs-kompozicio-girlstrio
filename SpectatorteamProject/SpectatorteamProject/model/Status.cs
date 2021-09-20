@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SpectatorteamProject.model
 {
-        
+        //1.branch
         /// <summary>
         /// enum=read-only típusú különleges osztály, Státusz osztály
         /// </summary>

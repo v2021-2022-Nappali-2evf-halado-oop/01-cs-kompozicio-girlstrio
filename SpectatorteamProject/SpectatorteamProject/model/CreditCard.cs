@@ -30,5 +30,23 @@ namespace SpectatorteamProject.model
 
         public DateTime ExpireDate { get => expireDate; set => expireDate = value; }
         public string CardNumber { get => cardNumber; set => cardNumber = value; }
+
+        /// <summary>
+        /// lejárat tulajdonság meghatározása
+        /// </summary>
+        public bool Expired
+        {
+            get
+            {
+                if (expireDate < DateTime.Now)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
     }
 }

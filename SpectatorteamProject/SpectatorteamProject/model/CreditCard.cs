@@ -24,8 +24,11 @@ namespace SpectatorteamProject.model
         /// <param name="cardNumber"></param>
         public CreditCard(DateTime expireDate, string cardNumber)
         {
-            this.ExpireDate = expireDate;
-            this.CardNumber = cardNumber;
+            this.expireDate = expireDate;
+            this.cardNumber = cardNumber;
         }
+
+        public DateTime ExpireDate { get => expireDate; set => expireDate = value; }
+        public string CardNumber { get => cardNumber; set => cardNumber = value; }
     }
 }

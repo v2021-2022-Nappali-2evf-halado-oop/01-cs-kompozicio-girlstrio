@@ -16,5 +16,16 @@ namespace SpectatorteamProject.model
         /// kártyaszám adat
         /// </summary>
         private string cardNumber;
+
+        /// <summary>
+        /// konstruktor
+        /// </summary>
+        /// <param name="expireDate"></param>
+        /// <param name="cardNumber"></param>
+        public CreditCard(DateTime expireDate, string cardNumber)
+        {
+            this.ExpireDate = expireDate;
+            this.CardNumber = cardNumber;
+        }
     }
 }

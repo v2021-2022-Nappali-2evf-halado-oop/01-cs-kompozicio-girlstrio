@@ -8,7 +8,7 @@ namespace SpectatorteamProject.model
 {
     class Name
     {
-        
+        //adattagok
             private string firstName;//rejtett adattag
             private string lastName;//rejtett adattag
             /// <summary>

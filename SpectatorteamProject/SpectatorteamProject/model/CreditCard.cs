@@ -48,5 +48,22 @@ namespace SpectatorteamProject.model
                 }
             }
         }
+
+        public override string ToString()
+        {
+            string result = "\nHitelkártya adatai: " + cardNumber;
+            result += "\nLejárati dátum: " + expireDate;
+
+            if (Expired)
+            {
+                result += "\nLejárt";
+            }
+            else
+            {
+                result += "\nÉrvényes";
+            }
+
+            return result;
+        }
     }
 }

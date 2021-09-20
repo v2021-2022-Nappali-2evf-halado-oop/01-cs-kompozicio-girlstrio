@@ -8,5 +8,13 @@ namespace SpectatorteamProject.model
 {
     class CreditCard
     {
+        /// <summary>
+        /// lejárati dátum adatmező
+        /// </summary>
+        private DateTime expireDate;
+        /// <summary>
+        /// kártyaszám adat
+        /// </summary>
+        private string cardNumber;
     }
 }
